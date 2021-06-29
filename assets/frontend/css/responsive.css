@@ -1,0 +1,14 @@
+
+@media (min-width: 1024px) and (max-width: 1920px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 98% !important;
+}
+}
+
+@media (min-width: 240px) and (max-width: 1430px){
+.BoxHeading h6 {
+	line-height: initial;
+	color: #555;
+	text-transform: capitalize;
+}
+}

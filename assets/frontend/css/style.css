@@ -1,0 +1,1349 @@
+/*#beingprakashdubey*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body{
+  font-family: 'Roboto', sans-serif !important;
+  /*background-color: #f4f4f4 !important;*/ /*background: rgb(244,244,244);
+  background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(244,244,244,1) 0%, rgba(0,212,255,1) 100%);*/ 
+  background-color: #aaa !important;
+}
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  text-decoration: none !important;
+}
+p,li, a, input{
+  font-size: 14px !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.Logo{
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.Logo img{
+  width: 100%;
+}
+.SearchInput{
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.SearchInput form{
+  width: 100%;
+}
+.SearchInput .input-group-text{
+  background-color: #fff;
+  border-radius: 50%;
+}
+.SearchInput input{
+  border-right: none;
+  border-radius: 100px;
+  height: 45px;
+}
+
+.SearchInput input:focus{
+  box-shadow: none;
+  border-color: #ced4da;
+}
+.UserImage img{
+  width: 50px;
+  border-radius: 50%;
+}
+.HeaderOption{
+  width: max-content;
+  margin-left: auto;
+  display: block;
+}
+.HeaderOption ul{
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.HeaderOption ul li{
+  margin-left: 20px;
+  font-size: 23px; 
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.HeaderOption ul li a{
+  color: #999;
+}
+.HeaderOption ul li a i {
+  font-size: 23px;
+  color: #fff;
+}
+.Header {
+  /* background-color: #f4f4f4; */
+  background: #8e8e8e;
+  /* background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(244,244,244,1) 0%, rgba(0,212,255,1) 100%); */
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+  padding: 10px 0px;
+  background: ;
+}
+.UserImage span{
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 2px solid #fff;
+}
+.Notification span.NotificationCount{
+  background-color: green;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: -14px;
+  border: 2px solid #fff;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+.DashboardNavigation ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.DashboardNavigation ul li{
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+.DashboardNavigation ul li img{
+  width: 25px;
+  margin-right: 15px;
+}
+.DashboardNavigation ul li a{
+  color: #333;
+  /*text-transform: uppercase;*/
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+.DashboardNavigation{
+  height: calc( 100% - 12px );
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+  padding: 15px !important;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  position: relative;
+}
+.Dashboard{
+  height: calc(100vh - 70px);
+}
+.Dashboard .container, .Dashboard .container .row, .Dashboard .container .row .col-md-3, .Dashboard .container .row .col-md-9{
+  height: 100%;
+}
+.Box {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+  padding: 15px;
+  border-radius: 0px 10px 0px 0px;
+  background-color: #fff;
+}
+.BoxHeading {
+  border-bottom: 1px solid #ced4da;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+  background-color: #b7ecf7;
+  padding: 10px 15px;
+  border-radius: 5px 5px 0px 0px;
+}
+.BoxHeading button{
+  float: right;
+  margin-top: -2px;
+}
+.Table{
+  margin-top: 10px;
+}
+.Table thead{
+  background-color: #444;
+  color: #fff;
+}
+tbody{
+  font-size: 14px;
+}
+.SmallBox{
+  margin-top: 30px;
+}
+.BoxHeading h5{
+  font-weight: 600;
+  color: #007bff;
+}
+.BoxHeading h6 {
+  line-height: 5px;
+  color: #555;
+  text-transform: capitalize;
+}
+.Invoice{
+  height: 100%;
+}
+.Invoice p{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.Invoice p img{
+  width: 10px;
+}
+.DashboardContent {
+  height: calc( 100% - 1px );
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-color: rgba(189, 181, 181, 0.2) hsla(0,0%,100%,.1);
+  scrollbar-width: thin;
+  padding: 10px 5px 10px 5px;
+}
+.Scroll{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-color: rgba(189, 181, 181, 0.2) hsla(0,0%,100%,.1);
+  scrollbar-width: thin;
+  padding: 10px 5px 10px 5px;
+}
+.SmallBox .col-lg-4{
+  margin-bottom: 30px;
+}
+.DashboardNavigation ul li a i{
+  float: right;
+  margin-top: 5px;
+  transform: rotate(0deg);
+  transition: 0.5s !important;
+  display: none;
+}
+.DashboardNavigation .collapsed i{
+  transform: rotate(180deg);
+  transition: 0.5s !important;
+}
+.InnerNavigation{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+}
+.collapse{
+  padding: 15px 0px;
+}
+.HeaderCollapse {
+  position: absolute !important;
+  top: 100% !important;
+  right: 0 !important;
+  background: #fff !important;
+  width: 320px !important;
+  padding: 15px !important;
+  z-index: 9 !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5) !important;
+  min-height: 400px !important;
+  max-height: 400px !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  scrollbar-color: rgba(189, 181, 181, 0.2) hsla(0,0%,100%,.1) !important;
+  scrollbar-width: thin !important;
+}
+.NotificationImage img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow:rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+}
+.NotificationAletText p span {
+  float: right;
+}
+.NotificationAletText p {
+  font-size: 12px !important;
+  color: #777;
+}
+.NotificationAletText h6{  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.SingleNotification {
+  border-bottom: 1px solid #ced4da;
+}
+.MarkAsRead a {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  color: #007bff !important;
+}
+#Setting ul{
+  display: block;
+}
+#Setting{
+  min-height: max-content !important;
+  max-height: max-content !important;
+  padding: 0px;
+}
+.BoxHeading button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.BoxHeading h4 {
+  position: relative;
+  color: #000;
+  font-weight: 700;
+  /*text-transform: uppercase;*/
+  font-family: 'Open Sans', sans-serif;
+}
+.ClientManagement button img{
+  width: 15px;
+}
+
+/* Smriti */
+.ModelMgmt {
+  border-radius: 15px;
+  /*box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;*/
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.InputBox label {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.InputBox input, .InputBox select {
+  height: 45px;
+  border-radius: 3px;
+}
+.BtnBox{
+  text-align: right;
+}
+.BtnBox button {
+  background: #19b1f0;
+  color: #fff;
+  border-radius: 0;
+  padding: 10px 30px;
+}
+.SaveButton button {
+  background: #19b1f0;
+  color: #fff;
+  border-radius: 0;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+.BtnBox .btn.cancel {
+  background: #fff;
+  color: #000;
+  border: 3px solid #19b1f0;
+}
+.BtnBox .Save{
+  border: 3px solid #19b1f0;
+
+}
+.BoxHeading.HeadingLeft {
+  text-align: left;
+}
+.SmallBox.modellist .col-lg-4 {
+  margin-bottom: 0 !important;
+}
+.Invoice.Box.comingsoon p{
+  text-align: center;
+}
+.Invoice.Box.comingsoon p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  height: 100%;
+}
+.Booker button {
+  border: 2px solid #007bff;
+  font-size: 12px;
+  color: #007bff;
+  width: 100%;
+  padding: 
+}
+.Booker {
+  margin: 30px 0;
+}
+.Booker.minmargin {
+  margin: 15px 0;
+}
+.Administration .Invoice.Box p {
+  white-space: inherit;
+}
+.BtnBox.Edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.Administration .BoxHeading h6 {
+  line-height: initial;
+}
+.HeaderFooter img{
+  width: 100%;
+}
+
+/* Reports Overview Start */
+.Report th {
+  width: 50%;
+  border: 1px solid #ddd;
+  color: #007bff;
+  padding: 7px;
+  font-weight: 600;
+}
+.Report {
+  width: 100%;
+}
+.ClientManagement {
+  background: #b7ecf7;
+  padding: 10px 15px;
+}
+.ClientManagement button:hover{
+  color: #007bff;
+}
+.upload-btn-wrapper {
+  overflow: hidden;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.upload-btn-wrapper .btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.image-preview {
+  z-index: 9;
+  position: relative;
+}
+.image-preview img{
+  background: #fff;
+}
+.HeaderFooter:hover .upload-btn-wrapper{
+  z-index: 99;
+}
+.HeaderFooter {
+  min-height: 300px;
+}
+.RefundIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007bff;
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+.Expence .nav-tabs .nav-item {
+  margin-bottom: -1px;
+  border: 1px solid #007bff;
+  border-radius: 0;
+  box-shadow: none;
+  width: 50%;
+  text-align: center;
+}
+.Expence .nav-tabs {
+  border: none;
+  margin-bottom: 20px;
+}
+.Expence .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #fff;
+  border: none; 
+  background: #007bff;
+  border-radius: 0px;
+}
+.Expence .nav-tabs .nav-link {
+ border: none; 
+ border-top-left-radius: .25rem;
+ border-top-right-radius: .25rem;
+}
+
+.CheckBg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.CheckBg img {
+  width: 20px !important;
+  height: 20px;
+}
+.CheckImg {
+  height: 100%;
+}
+.CheckImg img {
+  width: 20px !important;
+  height: 20px;
+}
+.Expence .tab-content .Invoice p{
+ padding-right: 20px;
+}
+.Ticket table{
+  width: 100%;
+}
+.Ticket h6 {
+  background: #f4f4f4;
+  padding: 4px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+div.RefundIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007bff;
+  position: relative;
+  top: 6px;
+}
+.CheckImg  img {
+  width: 20px !important;
+  height: 20px;
+}
+.RefundTable td img.Icon{
+  width: 10px;
+  height: 10px;
+}
+/* Refund Start */
+.OpenTicket.Box.Boxtwo{
+  margin-top: 2%;
+}
+/* Refund End */
+.search-container{
+  width: 490px;
+  display: block;
+  margin: 0 auto;
+}
+
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  &:focus{
+    border: 1px solid #008ABF;
+    transition: 0.35s ease;
+    color: #008ABF;
+    &::-webkit-input-placeholder{
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+    }
+    &::-moz-placeholder {
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+    }
+    &:-ms-placeholder {
+     transition: opacity 0.45s ease; 
+     opacity: 0;
+   }    
+ }
+}
+.Filter input {
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border-radius: 0px;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  &: focus{;
+    border: 1px solid #008ABF;
+    transition: 0.35s ease;
+    color: #008ABF;
+    &: :-webkit-input-placeholder{;
+      transition: opacity 0.45s ease;
+      opacity: 0;
+      }: ;
+      &: :-moz-placeholder {;
+        transition: opacity 0.45s ease;
+        opacity: 0;
+        }: ;
+        &: -ms-placeholder {;
+          transition: opacity 0.45s ease;
+          opacity: 0;
+          }: ;
+          }: ;
+        }
+        .search-icon {
+          position: relative;
+          float: right;
+          width: 75px;
+          height: 75px;
+          top: -62px;
+          right: 0px;
+        }
+        .InvoiceTitle h3 {
+          text-align: center;
+          font-size: 27px;
+          padding: 0 170px 0 170px;
+          /* line-height: 25px; */
+          font-weight: 600;
+        }
+        .InputBox.Search {
+          height: 70px;
+        }
+        .InvoiceTitle {
+          margin-bottom: 15px;
+        }
+        .InputBox.Search h3 {
+          font-size: 20px;
+        }
+        .textcolor{
+          color: #007bff;
+        }
+        .ModelMgmt.Detail h5{
+          font-size: 15px;
+        }
+        .Status{
+          font-size: 14px;
+          font-weight: 500;
+        }
+        .Status.Feedback{
+          font-size: 14px;
+          font-weight: normal;
+        }
+        .ModelMgmt.Detail {
+          margin: 0 0 !important;
+        }
+        .trainTicket {
+          font-size: 14px;
+          text-align: right;
+          margin-bottom: 10px;
+          font-weight: 500;
+        }
+        .InnerDetail {
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+        .Delete {
+          font-weight: normal;
+        }
+        .InnerDetail img {
+          width: 40%;
+        }
+        .Divpdf h4 {
+          font-size: 18px;
+        }
+        .History .added {
+          color: #000;
+        }
+        .History hr {
+          margin: 5px;
+        }
+        .ShowBtn {
+          text-align: right;
+        }
+
+
+        /* Generate Ref Preview Start */
+
+        .InputBox.Search {
+          height: 50px;
+        }
+        .InputBox.Search h4 {
+          font-size: 16px;
+          height: 45px;
+          display: flex;
+          align-items: center;
+        }
+        .Address p {
+          font-weight: 500;
+        }
+        .Vat {
+          display: flex;
+          justify-content: center;
+          height: 45px;
+          align-items: center;
+        }
+        .MoneySend .Edit{
+          text-decoration: none;
+        }
+        .MoneySend {
+          width: 100%;
+        }
+        .BottomTitle{
+          text-align: center;
+        }
+        .BottomTitle {
+          text-align: center;
+          width: 100%;
+        }
+        .ModelMgmt.Notes {
+          margin: 0;
+          padding-bottom: 0;
+          padding-top: 0;
+        }
+        .ModelMgmt.Notes h3 {
+          display: flex;
+          height: 30px;
+          align-items: center;
+        }
+        .Modelborder {
+          margin-top: 0;
+        }
+        .InputBox.Search.brbottom h3{
+          border-bottom: 1px solid #000;
+        }
+        .Invoicing {
+          width: 100%;
+        }
+        /*.Invoicing .InputBox.Search.brbottom {
+          width: max-content;
+        }*/
+        .Invoicing .InputBox.Search.brbottom {
+	        display: flex;
+	        justify-content: center;
+	        height: 40px;
+        }
+        .Table.Invoice th {
+          font-weight: normal;
+        }
+        /* Generate Ref Preview End */
+
+        /* Generate Invoice Preview Start */
+        .colleft{
+          width: 25%;
+        }
+        .colright {
+          width: 75%;
+        }
+        .colleft h4 {
+          font-size: 17px;
+          font-weight: 500;
+        }
+        .colright h4 {
+          font-size: 17px;
+          font-weight: normal;
+        }
+        .Invoice {
+          height: 100%;
+          width: 100%;
+          border-radius: 3px;
+        }
+        .InvoicePara p {
+          text-align: justify;
+        }
+        .MostWanted .Title {
+          width: 100%;
+          display: flex;
+        }
+        .MostWanted .Date {
+          width: 50%;
+        }
+        .MostWanted .Title .Date p {
+          text-align: left;
+        }
+        .MostWanted .No {
+          width: 50%;
+        }
+        .MostWanted .Title .No p {
+          text-align: right;
+        }
+        .GenerateInvoice h3 {
+          text-align: center;
+          font-size: 20px;
+        }
+        .GenerateInvoice h6 {
+          text-align: center;
+        }
+        .table.table-striped.Generate td {
+          border: 1px solid #ddd;
+        }
+        .TableTitle {
+          font-weight: 600;
+        }
+        .table.table-striped.Generate tr {
+          background: transparent !important;
+        }
+        /* Generate Invoice Preview End */
+
+        select{
+          font-size: 14px !important;
+        }
+
+        .NoRadius{
+          border-radius: 0px;
+          margin-top: 30px;
+        }
+
+        /* New css */
+        .input-group-append.AppendBox #basic-addon2 {
+          padding: 0 0.75rem !important;
+        }
+        .Table.invoice {
+          height: 500px;
+          overflow-x: scroll;
+          overflow-y: scroll;
+          scrollbar-color: rgba(189, 181, 181, 0.2) hsla(0,0%,100%,.1);
+          scrollbar-width: thin;
+          padding: 10px 5px 10px 5px;
+        }
+        /*.Table.invoice.Overview tr, .Table.invoice.Overview th, .Table.invoice.Overview td {*/
+          /*  border: 1px solid #ddd !important;*/
+          /*}*/
+          .Table.invoice th {
+            font-size: 12px !important;
+}/*
+.Table.Invoice .Total td {
+  font-weight: bold !important;
+}
+.Issue h3 {
+  font-size: 20px;
+  }*/
+  .Reminders {
+    display: flex;
+  }
+  .Reminders .LeftText{
+    width: 50%;
+    text-align: left;
+  }
+  .Reminders .RightText{
+    width: 50%;
+    text-align: right;
+  }
+  .Invoice .Box .Refund{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  /* New css */
+  .input-group-append.AppendBox #basic-addon2 {
+    padding: 0 0.75rem !important;
+  }
+  .Table.invoice {
+    height: 500px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    scrollbar-color: rgba(189, 181, 181, 0.2) hsla(0,0%,100%,.1);
+    scrollbar-width: thin;
+    padding: 10px 5px 10px 5px;
+  }
+  .Table.invoice.Overview tr, .Table.invoice.Overview th, .Table.invoice.Overview td {
+    border: 1px solid #ddd !important;
+  }
+  .Table.invoice th {
+    font-size: 12px !important;
+}/*
+.Table.Invoice .Total td {
+  font-weight: bold !important;
+}
+.Issue h3 {
+  font-size: 20px;
+  }*/
+  .Reminders {
+    display: flex;
+  }
+  .Reminders .LeftText{
+    width: 50%;
+    text-align: left;
+  }
+  .Reminders .RightText{
+    width: 50%;
+    text-align: right;
+  }
+  .Invoice .Box .Refund{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .FilterRow{
+    display: flex;
+  }
+  .Filters {
+    text-align: right;
+  }
+  .Filters a{
+    color: #000;
+  }
+  .Overview {
+    display: flex;
+  }
+  .Overview .Col {
+    width: 25%;
+  }
+  .Total td{
+    font-weight: bold !important;
+  }
+  .Overview.Export .Col{
+    width: 33.3333% !important;
+  }
+  .Overview a {
+    color: #000 !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  input.InputField{
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    width: max-content !important;
+  }
+
+  .PercentInput {
+    width: 62px !important;
+    min-width: 62px;
+    max-width: 62px;
+  }
+  .FilterRow button{
+    display: block;
+    margin-left: auto;
+  }
+  .FilterRow button img {
+    width: 15px;
+  }
+  .Filters a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Table > table > tbody > tr > td:last-child{  
+    text-align: right;
+  }
+  .Table > table > thead > tr > th:last-child{  
+    text-align: right;
+  }
+  .TableInvoice > table > tbody > tr > td:first-child{  
+    text-align: left !important;
+  }
+  .TableInvoice > table > thead > tr > th:first-child{  
+    text-align: left !important;
+  }
+  .TableInvoice td{  
+    text-align: right;
+  }
+  .TableInvoice th{  
+    text-align: right;
+  }
+  .InvoiceLogo img{
+    height: 50px;
+    display: block;
+    margin-left: auto;
+  }
+  .RefundPreview input, .RefundPreview select{
+    border: none;
+  }
+  .input-group-text {
+    background: #fff !important;
+  }
+  .InputBox.RefundPreview .col-md-9{
+    position: relative;
+  }
+  .InputBox.RefundPreview .col-md-9::before {
+    content: ':';
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    -webkit-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+  }
+  .RefundPreview input {
+    pointer-events: none;
+  }
+  textarea{
+    font-size: 14px !important;
+  }
+  .Modal .modal-title img{
+    height: 40px;
+  }
+  .ShareImage {
+    text-align: center;
+  }
+  .ShareImage img{
+    height: 100px;
+  }
+  .INputRow{
+    height: 45px !important;
+  }
+
+  .InvoiceTable {
+    border: 1px solid;
+    padding: 0px 15px 30px 15px;
+    margin: 20px;
+  }
+
+  .TableBorder .Tablecoln {
+    border: 1px solid;
+    padding: 5px 8px !important;
+    width: 8%;
+  }
+  .TableHeading h4 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .InvoiceTable {
+    margin: 20px;
+  }
+  .Tablecoln.Total h4 {
+    font-weight: 600;
+  }
+  .Tablecoln.Total.Client{
+    width: 12%;
+  }
+  .Tablecoln.Total.Client.Head h4 {
+    font-weight: normal;
+  }
+  .TableTitle h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  .Totaldata {
+    width: 8%;
+    text-align: center;
+    font-weight: 700;
+  }
+  .Totaldata.Width {
+    width: 12%;
+  }
+  .TH{
+    font-weight: 600;
+  }
+  .Tablecoln.Total.TableHeading h4 {
+    font-size: 14px;
+  }
+  .InvoiceTable.m-0.border-0 {
+    background: #fff;
+  }
+  .Filter label {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .Filter select {
+    height: 45px;
+    border-radius: 0px;
+  }
+  .Filter {
+    max-height: 111px;
+  }
+  .InnerPage {
+    margin: 30px 0;
+  }
+  .TopHead span{
+    text-align: right;
+  }
+  .Address h6{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .Credit h5 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .Credit h4{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .DivPadding {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  .BoxOne {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+    padding: 15px;
+    border-radius: 0px 10px 0px 0px;
+    background-color: #fff;
+  }
+  .BoxOne .Price::before {
+    content: "\f067";
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+  }
+  .BoxOne .Price{
+    text-align: right;
+  }
+  .BoxOne .Minus::before {
+    content: "\f068";
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+  }
+  .BoxOne .Minus{
+    text-align: right;
+  }
+  .BoxOne .vat h6{
+    font-size: 14px;
+  }
+  .Modelnm p {
+    margin-bottom: 5px;
+  }
+  .Modelnm.Total {
+    font-weight: 700;
+  }
+  .Modelnm.Total .Righttext{
+    text-align: right;
+  }
+  .InvoiceFooter p{
+    text-align: center;
+  }
+  .InvoiceFooter {
+    margin: 4% 0;
+  }
+  .InvoiceFooter h6{
+    text-align: center;
+    font-weight: 600;
+  }
+
+
+  .form-group input[type=date] {
+    text-transform: uppercase !important;
+  }
+  .btn.ADD {
+    background: #fff;
+    color: #000;
+    border: 1px solid #ced4da !important;
+  }
+  .btn.ADD {
+    background: #fff;
+    color: #000;
+    border: 1px solid #00356a !important;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .form-control.InvoiceNumber{
+    font-weight: 700 !important;
+    font-size: 24px !important;
+  }
+  .upload-btn-wrapperr {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .upload-btn-wrapperr .btn {
+    border: 1px solid #3b5268;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .upload-btn-wrapperr input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /*ise Replace krna h */
+  .Address h6{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .Credit h5 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .Credit h4{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  /* ise add krna h */
+  .NoIcon {
+    text-align: right !important;
+  }
+  .Equal {
+    text-align: right;
+  }
+  .Equal::before {
+    content: "=";
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+    font-weight: 700 !important;
+    font-size: 24px;
+    bottom: 0;
+  }
+  .NoIcon {
+    text-align: right !important;
+  }
+  .Equal {
+    text-align: right;
+  }
+  .Equal::before {
+    content: "=";
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+    font-weight: 700 !important;
+    font-size: 24px;
+    bottom: 0;
+  }
+
+  /* Refund 3 */
+  .MsgBox .Paidid {
+    text-align: right;
+  }
+  .ApprovePara p{
+    text-align: center;
+  }
+  .HeightInitial{
+    height: initial !important;
+  }
+/*.MinusPadding{
+  margin: -0px -30px;
+}*/
+.SelectAddress.text-center {
+  width: 100%;
+}
+.SelectAddress.text-center p {
+  line-height: 6px;
+}
+.Transfer p{
+  text-align: center;
+  font-weight: 600;
+}
+.Transfer p {
+  text-align: center;
+  font-weight: 600;
+  font-family: inherit;
+  border: 1px dashed;
+  padding: 12px;
+  margin-bottom: 65px;
+}
+
+.table .Total {
+	border: 2px solid #ddd;
+	border-left: 0;
+	border-right: 0;
+}
+.FinalNote {
+	padding: 20px 20px 0 20px;
+}
+.FinalNote p{
+    text-align: center;
+}
+.NewInvoice .BorderRow {
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.NewInvoice .BorderRow h6 {
+	font-weight: normal;
+	font-size: 15px;
+}
+.Modelfee.Icon.text-right {
+	position: relative;
+}
+.Modelfee.Icon.text-right::before {
+	content: "\f067";
+	position: absolute;
+	left: 0;
+	font-family: fontawesome;
+}
+.Modelfee.Icon.text-center::before {
+	content: "\f067";
+	position: absolute;
+	left: 0;
+	font-family: fontawesome;
+	cursor: pointer;
+}
+.Modelfee.Icon.text-center {
+	position: relative;
+}
+.BorderRow.Total {
+	border-left: 0;
+	border-right: 0;
+}
+.BorderRow.Total h6 {
+	font-weight: bold;
+	font-size: 18px;
+}
+.Modelfee.EqualIcon.text-right::before {
+	position: absolute;
+	content: "\=";
+	left: 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+.Modelfee.EqualIcon.text-right {
+	position: relative;
+}
+.Total td {
+	font-size: 18px;
+}
+.Modelfee.Iconminus.text-center::before {
+	position: absolute;
+	content: "\f068";
+	left: 0;
+	font-family: fontawesome;
+	cursor: pointer;
+}
+.Modelfee.Iconminus.text-center {
+	position: relative;
+}
+.InvoiceLogo.center img {
+	display: block;
+	margin: auto;
+}
